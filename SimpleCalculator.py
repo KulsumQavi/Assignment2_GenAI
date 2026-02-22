@@ -28,8 +28,8 @@ try:
 # Handling Invalid Input 
 except ValueError:
     # Trigger when the user types something that is not of type integer or float
-    print("Invalid input! Please enter int and float values only.")
+    print("Invalid input Please enter int and float values only")
 
 except ZeroDivisionError:
     # Safety for modulus with zero 
-    print("Error: Cannot perform modulus operation with zero.")
+    print("Error Cannot perform modulus operation with zero")
