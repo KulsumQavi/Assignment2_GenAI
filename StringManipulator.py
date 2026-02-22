@@ -44,7 +44,7 @@ try:
         print(f"Characters (with spaces):{char_count_with_spaces}")
         print(f"Characters (without spaces): {char_count_without_spaces}")
         print(f"Words:{total_words}")
-        print(f"UPPERCASE:{uppercase_sentence}")
+        print(f"Uppercase:{uppercase_sentence}")
         print(f"lowercase:{lowercase_sentence}")
         print(f"Title Case:{title_case_sentence}")
         print(f"First word:{first_word}")
