@@ -7,16 +7,16 @@ try:
     tip_percentage=float(input("Tip percentage: "))
 
     # Check Invalid Inputs
-    if total_bill <= 0:
+    if total_bill<= 0:
         print("Error Bill amount must be greater than 0")
 
-    elif num_people <= 0:
+    elif num_people<= 0:
         print("Error Number of people must be greater than 0")
 
-    elif tax_percentage < 0:
+    elif tax_percentage< 0:
         print("Error Tax percentage cannot be negative")
 
-    elif tip_percentage < 0:
+    elif tip_percentage< 0:
         print("Error Tip percentage cannot be negative")
 
     else:
@@ -38,8 +38,8 @@ try:
         #Amount each person has to pay
         per_person=total/num_people
 
-        #Display Results -----------
-        print("=== BILL BREAKDOWN ===")
+        #Display Results
+        print("Bill")
         print(f"Subtotal:₹{subtotal:.2f}")
         print(f"Tax({tax_percentage}%):₹{tax_amount:.2f}")
         print(f"After Tax:₹{bill_after_tax:.2f}")
